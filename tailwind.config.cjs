@@ -1,3 +1,4 @@
+import datatablePlugin from './plugins/datatable.plugin.cjs';
 import formPlugin from './plugins/form.plugin.cjs';
 import textPlugin from './plugins/text.plugin.cjs';
 
@@ -119,5 +120,5 @@ export default {
 			}
 		}
 	},
-	plugins: [formPlugin, textPlugin]
+	plugins: [formPlugin, textPlugin, datatablePlugin]
 };
