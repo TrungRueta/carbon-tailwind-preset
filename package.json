@@ -1,5 +1,5 @@
 {
-	"name": "carbon-tailwind-preset",
+	"name": "@trung-rueta/carbon-tailwind-preset",
 	"version": "1.0.0",
 	"description": "tailwind ui preset for carbon design system",
 	"main": "tailwind.config.cjs",
