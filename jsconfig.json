@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"moduleResolution": "nodenext",
+		"target": "ES2022",
+		"module": "ES2022"
+	},
+	"include": [
+		"plugins/**/*.ts",
+		"plugins/**/*.js",
+		"plugins/**/*.cjs",
+		"tailwind.config.cjs",
+		"tailwind.plugin.cjs"
+	]
+}

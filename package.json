@@ -4,6 +4,7 @@
 	"description": "tailwind ui preset for carbon design system",
 	"main": "tailwind.config.cjs",
 	"types": "tailwind.config.cjs",
+	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},

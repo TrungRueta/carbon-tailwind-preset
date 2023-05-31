@@ -1,3 +1,6 @@
+import formPlugin from './plugins/form.plugin.cjs';
+import textPlugin from './plugins/text.plugin.cjs';
+
 /** @type {import('tailwindcss').Config} */
 export default {
 	theme: {
@@ -107,16 +110,14 @@ export default {
 					'03': 'var(--cds-support-03)',
 					'04': 'var(--cds-support-04)'
 				},
-				inverse: {
-					support: {
-						'01': 'var(--cds-inverse-support-01)',
-						'02': 'var(--cds-inverse-support-02)',
-						'03': 'var(--cds-inverse-support-03)',
-						'04': 'var(--cds-inverse-support-04)'
-					}
+				'inverse-support': {
+					'01': 'var(--cds-inverse-support-01)',
+					'02': 'var(--cds-inverse-support-02)',
+					'03': 'var(--cds-inverse-support-03)',
+					'04': 'var(--cds-inverse-support-04)'
 				}
 			}
 		}
 	},
-	plugins: [require('./tailwind.plugin.cjs')]
+	plugins: [formPlugin, textPlugin]
 };
