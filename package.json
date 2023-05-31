@@ -1,0 +1,12 @@
+{
+	"name": "carbon-tailwind-preset",
+	"version": "1.0.0",
+	"description": "tailwind ui preset for carbon design system",
+	"main": "tailwind.config.cjs",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
