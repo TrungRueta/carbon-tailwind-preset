@@ -2,7 +2,7 @@ import plugin from 'tailwindcss/plugin';
 
 export default plugin(({ addUtilities }) => {
 	addUtilities({
-		'.carbon-date-picker-full-width': {
+		'.bx--form-item.w-full': {
 			'@apply w-full': {},
 
 			'.bx--date-picker': {
