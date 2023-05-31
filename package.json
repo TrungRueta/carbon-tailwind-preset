@@ -1,6 +1,6 @@
 {
 	"name": "carbon-tailwind-preset",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "tailwind ui preset for carbon design system",
 	"main": "tailwind.config.cjs",
 	"types": "tailwind.config.cjs",
