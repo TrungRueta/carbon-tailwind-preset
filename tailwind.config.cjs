@@ -9,16 +9,28 @@ export default {
 		screens: {
 			// small is < 672px
 			sm: '672px',
+			// max of small 672px
+			maxsm: { max: '671px' },
 			// half of medium 672 - 850px
 			smd: '850px',
+			// max of half of medium 672 - 850px
+			maxsmd: { max: '849px' },
 			// medium 672 - 1056px
 			md: '1056px',
+			// max of medium 672 - 1056px
+			maxmd: { max: '1055px' },
 			// large 1056 - 1312px
 			lg: '1312px',
+			// max of large 1056 - 1312px
+			maxlg: { max: '1311px' },
 			// X-Large: 1312 - 1584px
 			xl: '1584px',
+			// max of X-Large: 1312 - 1584px
+			maxxl: { max: '1583px' },
 			// Max: greater than 1584px
 			max: '1584px'
+			// max of Max: greater than 1584px
+			// maxmax: { max: '1584px' }
 		},
 		// https://carbondesignsystem.com/guidelines/spacing/overview/
 		spacing: {
