@@ -1,3 +1,9 @@
+/* Write your global styles here, in PostCSS syntax */
+/* disable default reset css because now we use from carbon */
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
 /* fix breadcrumb */
 .bx--breadcrumb {
 	@apply flex flex-wrap;
