@@ -1,0 +1,24 @@
+/* fix breadcrumb */
+.bx--breadcrumb {
+	@apply flex flex-wrap;
+}
+
+/* fix condensed */
+@screen md {
+	.bx--grid.bx--grid--condensed .bx--row {
+		@apply -mx-8;
+	}
+}
+
+/* fix grid common */
+.bx--grid {
+	@apply flex flex-col;
+}
+
+.bx--grid .bx--row {
+	@apply flex-1;
+}
+
+.bx--grid .bx--col > .bx--grid {
+	@apply h-full;
+}
