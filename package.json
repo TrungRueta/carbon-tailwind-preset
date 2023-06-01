@@ -1,15 +1,10 @@
 {
 	"name": "carbon-tailwind-preset",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"description": "tailwind ui preset for carbon design system",
 	"main": "tailwind.config.cjs",
 	"types": "tailwind.config.cjs",
 	"type": "module",
-	"files": [
-		"./styles",
-		"./plugins",
-		"tailwind.config.cjs"
-	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
